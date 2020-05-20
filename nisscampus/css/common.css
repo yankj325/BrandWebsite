@@ -44,8 +44,6 @@ body {
 
 
 p {
-	/*color:#ffe4a2;*/
-	color:pink;
 	text-transform: uppercase;
 	letter-spacing:.1rem;
 }
@@ -55,11 +53,27 @@ p span {
 }
 
 a {
-	/*color:#ffe4a2;*/
-	color:pink;
 	text-transform:none;
 	text-decoration: none;
 	font-size:20px;
+}
+
+.copy-right a{
+	font-size: 1.4rem;
+	float: left;
+	color: #333;
+	margin-right: 15px;
+}
+.copy-right a:hover{
+	color: #ed8022;
+}
+.copyright{
+	float: left;
+	clear: both;
+	margin-top: 80px;
+	font-size: 1.2rem;
+	color: #666;
+	font-weight:bold;
 }
 
 @media screen and (min-width:480px) {
